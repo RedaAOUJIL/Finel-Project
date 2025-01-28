@@ -4,14 +4,59 @@
     <title>
       YouTube.com
     </title>
+    <style>
+      .search-bar-container{margin-bottom: 40px;
+                            text-align: center;}
+      .search-bar{          width: 300px;
+                            height: 35px;
+                            font-family: Arial, Helvetica, sans-serif;
+                            font-size: 15px;
+                            padding-left: 10px;
+                            border: gray solid 1px;}  
+                            
+      .video-menitor{           width: 300px;}
+      .channel-menitor{         width: 40px;
+                                margin-bottom: 45px;
+                                border-radius: 30px;}
+      .video-title{             font-family: Arial, Helvetica, sans-serif;
+                                font-weight: bold;
+                                font-size: 14px;
+                                width: 246px;
+                                margin-bottom: 10px;
+                                line-height: 22px;
+                                padding-left: 10px;}
+      .channel-name{            font-family: Arial, Helvetica, sans-serif;
+                                font-size: 13px;
+                                color: rgb(95, 95, 95);
+                                margin: 0;
+                                padding-left: 10px;}
+      .channel-info{            font-family: Arial, Helvetica, sans-serif;
+                                font-size: 13px;
+                                color: rgb(95, 95, 95);
+                                margin-top: 6px;
+                                padding-left: 10px;}
+      .video-container{         width: 300px;
+                                display: inline-block;}
+      .channel-menitor-container{display: inline-block;}       
+      .channel-info-container{   display: inline-block;}
+                      
+    </style>
   </head>
   <body>
-    <div>
+    <div class="search-bar-container">
       <input class="search-bar" type="text" placeholder="Search">
     </div>
 
-    <div>
-      <img class="video-menitor" src="thumbnails/thumbnail-1.webp"
+    <div class="video-container">
+      <div><img class="video-menitor" src="thumbnails/thumbnail-1.webp"></div>
+      <div>
+        <div class="channel-menitor-container"><img class="channel-menitor" src="thumbnails/channel-1.jpeg"></div>
+        <div      class="channel-info-container">
+          <div><p   class="video-title"> Talking Tech and AI with Google CEO Sundar Pichai!</p></div>
+          <div><p   class="channel-name"> Marques Brownlee</p></div>
+          <div><p   class="channel-info"> 3.4M views	&#183; 6 months ago</p></div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
