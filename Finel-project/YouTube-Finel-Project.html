@@ -15,14 +15,13 @@
                             border: gray solid 1px;}  
                             
       .video-menitor{           width: 100%;}
-      .channel-menitor{         width: 40px;
-                                margin-bottom: 45px;
+      .channel-menitor{         width: 100%;
+                                vertical-align: top;
                                 border-radius: 30px;}
       .video-title{             font-family: Arial, Helvetica, sans-serif;
                                 font-weight: bold;
                                 font-size: 14px;
-                                width: 246px;
-                                margin-bottom: 10px;
+                                width: 100%;
                                 line-height: 22px;
                                 padding-left: 10px;}
       .channel-name{            font-family: Arial, Helvetica, sans-serif;
@@ -36,9 +35,17 @@
                                 margin-top: 6px;
                                 padding-left: 10px;}
       .video-container{         width: 100%;
+                                height: 100%;
                                 display: inline-block;}
-      .channel-menitor-container{display: inline-block;}       
-      .channel-info-container{   display: inline-block;}
+      .channel-menitor-container{display:inline-block;
+                                vertical-align: top;
+                                padding-top: 10px;
+                                width: 40px;}     
+      .channel-info-container{  display: inline-block;
+                                width: 360px}
+      .video-title-container{   display: inline-block;}
+      .channel-name-container{  display: inline-block;}
+      .channel-info-container{  display: inline-block;}
 
       .Youtube-container{        display: grid;
                                   grid-template-columns: 1fr 1fr 1fr;
@@ -61,9 +68,9 @@
         <div>
           <div class="channel-menitor-container"><img class="channel-menitor" src="thumbnails/channel-1.jpeg"></div>
           <div class="channel-info-container">
-            <div><p   class="video-title"> Talking Tech and AI with Google CEO Sundar Pichai!</p></div>
-            <div><p   class="channel-name"> Marques Brownlee</p></div>
-            <div><p   class="channel-info"> 3.4M views	&#183; 6 months ago</p></div>
+            <div class="video-title-container"><p   class="video-title"> Talking Tech and AI with Google CEO Sundar Pichai!</p></div>
+            <div class="channel-name-container"><p   class="channel-name"> Marques Brownlee</p></div>
+            <div class="channel-info-container"><p   class="channel-info"> 3.4M views	&#183; 6 months ago</p></div>
           </div>
         </div>
       </div>
@@ -92,9 +99,45 @@
       </div>
       </div>
 
+      <div class="video-container">
+        <div><img class="video-menitor" src="thumbnails/thumbnail-4.webp"></div>
+        <div>
+          <div class="channel-menitor-container"><img class="channel-menitor" src="thumbnails/channel-4.jpeg"></div> 
+          <div class="channel-info-container">
+            <div class="video-title"><p> The Simplest Math Problem No One Can Solve - Collatz Conjecture</p></div>
+            <div class="channel-name"><p> Veristasium</p></div>
+            <div class="channel-info"><p> 18M views &#183; 4 months ago</p></div>
+          </div>
+        </div>
+      </div>
 
+
+      <div>
+        <div><img class="video-menitor" src="thumbnails/thumbnail-5.webp"></div>
+        <div>
+          <div class="channel-menitor-container"><img class="channel-menitor" src="thumbnails/channel-5.jpeg"></div>
+          <div class="channel-info-container">
+            <div><p class="video-title"> Kadane's Algorithm to Maximum Sum Subarray Problem</p></div>
+            <div><p class="channel-name"> CS Dojo</p></div>
+            <div><P class="channel-info"> 519k viws &#183; 5 years ago </P></div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div><img class="video-menitor" src="thumbnails/thumbnail-6.webp"></div>
+        <div>
+          <div class="channel-menitor-container"> <img class="channel-menitor" src="thumbnails/channel-6.jpeg"></div>
+          <div  class="channel-info-container">
+            <div><p class="video-title"> Anything You Can Fit In The Circle I'll Pay For</p></div>
+            <div><p class="channel-name"> MrBeast</p></div>
+            <div> <p class="channel-info"> 141M views &#183; 1 year ago</p></div>
+          </div>
+        </div>
+      </div>
 
 
     </div>
   </body>
 </html>
+           
