@@ -1,0 +1,12 @@
+.header-container{    display: flex;
+                      flex-direction:row;
+                      
+                      margin-bottom: 30px;
+                      justify-content: space-between;}
+.search-bar-container{flex: 1;}
+.search-bar{         
+                      height: 35px;
+                      font-family: Arial, Helvetica, sans-serif;
+                      font-size: 15px;
+                      padding-left: 10px;
+                      border: gray solid 1px;}  
