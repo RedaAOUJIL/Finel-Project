@@ -3,10 +3,14 @@
                       
                       margin-bottom: 30px;
                       justify-content: space-between;}
-.search-bar-container{flex: 1;}
+.search-bar-container{ flex: 2;
+                        max-width: 400px;
+                        margin-left: 60px;
+                        margin-right: 60px;}
 .search-bar{         
                       height: 35px;
                       font-family: Arial, Helvetica, sans-serif;
                       font-size: 15px;
+                      width: 300px;
                       padding-left: 10px;
                       border: gray solid 1px;}  
