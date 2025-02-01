@@ -2,8 +2,38 @@
 <html>
   <head>
     <title> FlexBox practice</title>
+    <style>
+      .info-container{display: flex;
+                    flex: row;
+                    justify-content: space-between;
+                    align-items: center;
+                    transition: 0.7s;
+                    cursor: pointer;
+                    box-shadow: 3px 3px 3px rgba(0,0, 0, 0.3);}
+    .items-container{padding-left: 15PX;}
+    .button-style{        background-color: rgb(0, 51, 255);
+                          color: white;
+                          margin-right: 15px;
+                          border: none;
+                          border-radius: 30px;
+                          height: 27px;
+                          font-size: 15px;
+                          box-shadow: 3px 3px  3px rgba(0,0, 0, 0.3);
+                          cursor: pointer;
+                          transition: 0.7s;}
+    .button-style:hover{  transition: 0.7s;
+                          opacity: 0.7;
+                          box-shadow: 3px 3px  3px rgba(0,0, 0, 0.5);}
+    .para-style{          font-family: Arial, Helvetica, sans-serif;
+                          font-size: 18px;
+                          text-shadow: 3px 3px 3px rgba(0,0, 0, 0.3);}
+    .info-container:hover{transition: 0.7s;
+                          background-color: rgb(231, 228, 228);}
+    
+      
+    </style>
   </head>
-  <body>
+  <body style="padding-bottom: 1000px;">
     <div style="display: flex;
                 flex-direction: row;">
       <div style="background-color: lightblue;">div1 text</div>
@@ -72,6 +102,68 @@
               justify-content: center;">
     <div style="background-color: lightblue;">Grid1</div>
     <div style="background-color: lightpink;">Grid2</div>
+  </div>
+
+  <div style="margin-top: 30px;
+              display: flex;
+              flex-direction: row;">
+    <div style="background-color: lightblue;
+                width: 200px;">200px</div>
+    <div style="background-color: lightpink;
+                width: 75px;">75px</div>
+  </div>
+
+  <div style="margin-top: 30px;
+              display: flex;
+              flex: row;">
+    <div style="background-color: lightblue;
+                width: 50px;">item1</div>
+    <div style="background-color: lightpink;
+                flex: 1;">item2</div>
+    <div style="background-color: lightblue;
+                width: 75px;">item3</div>
+  </div>
+
+  <div style="margin-top: 30px;
+              display: flex;
+              flex-direction: row;
+              justify-content: space-between;">
+    <div style="background-color: lightpink;">item1</div>
+    <div style="background-color: lightpink;">item2</div>
+    <div style="background-color: lightpink;">item3</div>
+    <div style="background-color: lightpink;">item4</div>
+  </div>
+
+  <div style="margin-top: 30px;
+              display: flex;
+              flex-direction: row;
+              justify-content: space-between;
+              border: 1px gray solid;
+              height: 50px;
+              align-items: center;">
+    <div style="background-color: lightpink;">item1</div>
+    <div style="background-color: lightpink;">item2</div>
+  </div>
+
+  <div class="first-container" style="margin-top: 30px;
+              display: grid;
+              border-radius: 6px;
+              box-shadow: 3px 3px 3px rgba(0,0, 0, 0.3);">
+    <div class="info-container">
+    <div  class="items-container" ><p class="para-style" >Home</p></div>
+      <div><button class="button-style"
+                    style="width: 40px;">14</buttoN></div>
+    </div>
+    <div class="info-container">
+      <div class="items-container"><p class="para-style">Notifications</p></div>
+      <div><button class="button-style"
+                    style="width: 33px;">3</button></div>
+    </div>
+    <div class="info-container">
+      <div  class="items-container"><p class="para-style">Messages</p></div>
+      <div><button class="button-style"
+                    style="width: 33px;">5</button></div>
+    </div>
   </div>
   </body>
 </html>
