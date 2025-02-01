@@ -82,6 +82,37 @@
     .follow-button:hover{   background-color: white;
                             color:rgb(49, 155, 255);}
 
+
+    .bar-container{         margin-top: 40px;
+                            display: flex;
+                            flex-direction: row;
+                            align-items: center;
+                            justify-content: space-between;
+                            background-color: rgb(179, 97, 255);
+                            margin-left: 10px;
+                            margin-right: 10px;}
+    .home-container{        padding-left: 15px;
+                            width: 100px;}
+    .home-para{             font-family: Arial, Helvetica, sans-serif;
+                            color: white;
+                            font-size: 15px;}
+    .search-container{      flex: 1;
+                            max-width: 1100px;}
+    .search-bar{            width: 100%;
+                            font-size: 12px;
+                            height: 25px;
+                            padding-left: 15px;
+                            border-radius: 18px;
+                            border: none;}
+    .download-container{    margin-left: 80px;
+                            padding-right: 15px;}
+    .download-button{       background-color:rgb(179, 97, 255) ;
+                            border: 1px white solid;
+                            color: white;
+                            height: 30px;
+                            width: 100px;
+                            cursor: pointer;}
+
     
       
     </style>
@@ -254,8 +285,13 @@
     <div class="follow-container"><button class="follow-button">Follow</button></div>
     </div>
         
-    
+    </div>
 
-  </div>
+
+    <div class="bar-container">
+      <div class="home-container"><p class="home-para">Home</p></div>
+      <div class="search-container"><input class="search-bar" type="text" placeholder="Search"> </div>
+      <div class="download-container"><button class="download-button">Download</button></div>
+    </div>
   </body>
 </html>
