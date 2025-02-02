@@ -21,9 +21,12 @@
                       margin-left: 15px;
                       margin-right: 25px;}
 .youtube-logo{        height: 22px;}
-.lift-container{      background-color: lightpink; 
-                      width: 300px;
-                      margin-left: 50px;}
+.lift-container{      display: flex;
+                      justify-content: space-between;
+                      width: 190px;
+                      flex-direction: row;
+                      margin-right: 15px;
+                      align-items: center;}
                       
 .search-logo-button{  height: 38px;
                       border: 1px solid rgb(195, 195, 195); 
@@ -31,7 +34,7 @@
                       cursor: pointer;
                       transition: 0.5s;
                       background-color: rgb(242, 240, 240);
-                      width: 60px;}
+                      width: 65px;}
 .search-logo-button:hover{transition: 0.5s;
                           background-color: rgb(231, 231, 231);}
 .search-logo{         height: 25px;
@@ -43,4 +46,19 @@
                       border-radius: 20px;
                       border: none;
                       cursor: pointer;}
-.vocal-logo{          height: 23px;}
+.vocal-logo{          height: 23px;
+                      cursor: pointer;}
+.upload-logo{         width: 25px;
+                      cursor: pointer;
+                      height: 25px;}
+.youtube-apps{        width: 25px;
+                      cursor: pointer;
+                      height: 25px;}
+.notifications-logo{  width: 25px;
+                      cursor: pointer;
+                      height: 25px;}
+.profile-photo{       width: 35px;
+                      cursor: pointer;
+                      object-fit: cover;
+                      border-radius: 17px;
+                      height: 35px;}
