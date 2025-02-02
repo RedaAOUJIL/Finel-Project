@@ -2,15 +2,19 @@
                       flex-direction:row;
                       margin-bottom: 30px;
                       justify-content: space-between;}
-.search-bar-container{margin-left: 60px;
-                      margin-right: 60px;
-                      flex: 1;
-                      max-width: 500px;
-                      background-color: lightgray;}
-.search-bar{         
-                      height: 35px;
+.search-bar-container{ display: flex;
+                       flex: 1;}
+.search-bar{          height: 35px;
                       font-family: Arial, Helvetica, sans-serif;
                       font-size: 15px;
-                      width: 300px;
                       padding-left: 10px;
-                      border: gray solid 1px;}  
+                      flex: 1;
+                      max-width: 500px;
+                      border: rgb(195, 195, 195) solid 1px;}  
+.right-container{     display: flex;
+                      align-items: center;
+                      width: 400px;}
+.hamburger-menu{      height: 25px;
+                      margin-left: 15px;
+                      margin-right: 25px;}
+.youtube-logo{        height: 22px;}
