@@ -61,4 +61,7 @@
                       cursor: pointer;
                       object-fit: cover;
                       border-radius: 17px;
-                      height: 35px;}
+                      height: 35px;
+                      transition: 0.5s;}
+.profile-photo:hover{transform: scale(1.5);
+                      transition: 0.5s;}
