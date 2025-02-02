@@ -112,6 +112,33 @@
                             height: 30px;
                             width: 100px;
                             cursor: pointer;}
+    .profile-flex{          margin-top: 30px;
+                            display: flex;
+                            flex-direction: row;
+                            align-items: center;}
+    .profile-image{         width: 55px;
+                            height: 55px;
+                            object-fit: cover;
+                            border-radius: 35px;}
+    .profile-container-info{
+                            width: 300px;
+                            line-height: 8px;
+                            margin-left: 15px;}
+    .rex-para{              font-family: Arial, Helvetica, sans-serif;
+                            font-weight: bold;
+                            font-size: 16px;}
+    .happy-para{            color: gray;
+                            font-family: Arial, Helvetica, sans-serif;
+                            font-size: 15px;}
+    .button-follow{         background-color: rgb(49, 145, 176);
+                            color: white;
+                            width: 70px;
+                            height: 27px;
+                            border: none;
+                            border-radius: 4px;
+                            font-size: 15px;
+                          cursor: pointer;}
+    
 
     
       
@@ -292,6 +319,17 @@
       <div class="home-container"><p class="home-para">Home</p></div>
       <div class="search-container"><input class="search-bar" type="text" placeholder="Search"> </div>
       <div class="download-container"><button class="download-button">Download</button></div>
+    </div>
+
+
+    <div class="profile-flex">
+      <div><img class="profile-image" src="exercises-thumbnails/dog.jpg"></div>
+      <div class="profile-container-info"> 
+        <div><p class="rex-para">Rex</p></div>
+        <div><p class="happy-para">Happy Buildog</p></div>
+        <div><p class="happy-para">Popular</p></div>
+      </div>
+      <div class="button-container"><button class="button-follow">Follow</button></div>
     </div>
   </body>
 </html>
