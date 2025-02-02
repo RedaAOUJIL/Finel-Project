@@ -2,19 +2,45 @@
                       flex-direction:row;
                       margin-bottom: 30px;
                       justify-content: space-between;}
-.search-bar-container{ display: flex;
-                       flex: 1;}
+.search-bar-container{display: flex;
+                      max-width: 500px;
+                      flex: 1;}
+                  
 .search-bar{          height: 35px;
                       font-family: Arial, Helvetica, sans-serif;
                       font-size: 15px;
                       padding-left: 10px;
                       flex: 1;
-                      max-width: 500px;
+                      box-shadow:inset 1px 1px 1px rgba(0,0,0,0.1);
+                      max-width: 400px;
                       border: rgb(195, 195, 195) solid 1px;}  
 .right-container{     display: flex;
                       align-items: center;
-                      width: 400px;}
+                      margin-right: 40px;}
 .hamburger-menu{      height: 25px;
                       margin-left: 15px;
                       margin-right: 25px;}
 .youtube-logo{        height: 22px;}
+.lift-container{      background-color: lightpink; 
+                      width: 300px;
+                      margin-left: 50px;}
+                      
+.search-logo-button{  height: 38px;
+                      border: 1px solid rgb(195, 195, 195); 
+                      margin-left: -1px;
+                      cursor: pointer;
+                      transition: 0.5s;
+                      background-color: rgb(242, 240, 240);
+                      width: 60px;}
+.search-logo-button:hover{transition: 0.5s;
+                          background-color: rgb(231, 231, 231);}
+.search-logo{         height: 25px;
+                      margin-top: 4px;}
+.vocal-button{        height: 38px;
+                      width: 40px;
+                      background-color: rgb(253, 250, 250);
+                      margin-left: 10px;
+                      border-radius: 20px;
+                      border: none;
+                      cursor: pointer;}
+.vocal-logo{          height: 23px;}
