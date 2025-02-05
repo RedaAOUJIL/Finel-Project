@@ -55,30 +55,69 @@
       .gmailios-container1{ display: grid;
                             width:420px; 
                             margin-top: 30px;
+                            border-radius: 4px;
+                            cursor: pointer;
+                            transition: 0.4s;
                             margin-left: 15px;
                             box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);}
+      .gmailios-container1:hover{ background-color: rgb(246, 246, 246);
+                                  transition: 0.4s;
+                                  transform: scale(1.1);
+                                  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);}
       .head-container{      display: flex;
                             flex-direction: row;
                             margin-bottom: 30px;}
       .head-para{           font-family: Arial, Helvetica, sans-serif;
                             color: gray;
+                            font-size: 14px;
                             margin-bottom: 0;
+                            transition: 0.3s;
                             padding-left: 15px;}
+      .head-para:hover{     color:black;
+                            transition: 0.3s;
+                            transform: scale(1.1);}
       .gmail-info-container{display: flex;
+                            margin-bottom: 20px;
                             flex-direction: row;
                             align-items: center;}
-          
-      .gmail-picture{       width: 45px;
-                            height: 45px;
+        
+      .gmail-picture{       width: 42px;
+                            height: 42px;
+                            margin-bottom: 18px;
                             object-fit: cover;
                             margin-left: 15px;
+                            transition: 0.4s;
                             margin-right: 15px;
-                            border-radius: 23px;}
+                            border-radius: 21px;}
+      .gmail-picture:hover{ transition: 0.4s;
+                            transform: scale(1.1);}
       .profile-gmail-container{line-height: 4px;
+                                transition: 0.3s;
                                 width: 320px;}
+      .profile-gmail-container:hover{transform: scale(1.1);
+                                      transition: 0.3s;}
       .first-gmail-info{       display: flex;
                                 flex-direction: row;
                                 justify-content: space-between;}
+      .first-para{              font-weight: bold;
+                                font-size: 15px;
+                                margin: 0;
+                                font-family: Arial, Helvetica, sans-serif;}
+      .time-para{               font-family: Arial, Helvetica, sans-serif;
+                                color: gray;
+                                transition: 0.3s;
+                                font-size: 13px;
+                                margin: 0;}
+      .time-para:hover{         color: black;
+                                transition: 0.3;
+                                transform: scale(1.1);}
+      .second-para{             font-family: Arial, Helvetica, sans-serif;
+                                font-weight: bold;
+                                margin-top: 16px;
+                                font-size: 15px;}
+      .tirdth-para{             color: gray;
+                                font-size: 15px;
+                                font-family: Arial, Helvetica, sans-serif;}
                       
 
     </style>
@@ -241,6 +280,50 @@
             <div><p class="second-para">Biggest sales of the year!</p></div>
             <div><p class="tirdth-para">Hey there! we're writing to tell you about our...</p></div>
           </diV>
+        </div>
+
+
+        <div>
+
+        </div>
+        
+        <div class="gmail-info-container">
+          <div class="gmail-picture-container"><img class="gmail-picture" src="exercises-thumbnails/Cat03.jpg"></div>
+          <diV class="profile-gmail-container">
+            <div class="first-gmail-info">
+              <div><p class="first-para">Best Buy</p></div>
+              <div><p class="time-para">12:32 PM</p></div>
+            </div>
+            <div><p class="second-para">Your Best Buy eReceipt</p></div>
+            <div><p class="tirdth-para">Thank you for shopping at Best Buy, here is...</p></div>
+          </diV>
+        </div>
+          <div class="gmail-info-container">
+            <div class="gmail-picture-container"><img class="gmail-picture" src="exercises-thumbnails/dog.jpg"></div>
+            <div class="profile-gmail-container">
+              <div class="first-gmail-info">
+                <div><p class="first-para">Netflix</p></div>
+                <div><p class="time-para">9:00 AM</p></div>
+              </div>
+              <div><p class="second-para">Here's what's coming soon to Netflix</p></div>
+              <div><p class="tirdth-para">Brand new movies and shows old favorites...</p></div>
+            </div>
+          </div>
+      
+      </div>
+
+
+      <div class="second-container">
+        <div class="second-image-container"><img class="image-profile" src="exercises-thumbnails/cat.jpg"></div>
+        <div class="content-container">
+          <div class="formation-container">
+            <div><p class="super-para">supersimple.dev</p><p class="simple-para">@SuperSimpleDev</p></div>
+            <div><p class="what-para">What is backend web devlelopment? A complete overview. New video is up!</p></div>
+          </div>
+          <div>
+            <div></div>
+            <div></div>
+          </div>
         </div>
       </div>
   </body>

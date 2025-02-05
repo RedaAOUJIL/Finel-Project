@@ -19,9 +19,11 @@
                       align-items: center;
                       margin-right: 40px;}
 .hamburger-menu{      height: 25px;
+                      cursor: pointer;
                       margin-left: 15px;
                       margin-right: 25px;}
-.youtube-logo{        height: 22px;}
+.youtube-logo{        height: 22px;
+                      cursor: pointer;}
 .lift-container{      display: flex;
                       justify-content: space-between;
                       width: 190px;
