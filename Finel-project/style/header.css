@@ -1,6 +1,14 @@
 .header-container{    display: flex;
                       flex-direction:row;
                       margin-bottom: 30px;
+                      position: fixed;
+                      align-items: center;
+                      top: 0;
+                      right: 0;
+                      left: 0;
+                      background-color: white;
+                      height: 50px;
+                      border-bottom:1px solid rgb(222, 220, 220);
                       justify-content: space-between;}
 .search-bar-container{display: flex;
                       max-width: 500px;
