@@ -121,7 +121,58 @@
 
 
       .second-container{        display: flex;
-                                flex-direction: row;}                          
+                                flex-direction: row;
+                                margin-top: 30px;
+                                margin-left: 30px;
+                                width: 400px;
+                                
+                                align-items:top;}    
+      .image-profile{           width: 50px;
+                                height: 50px;
+                                object-fit: cover;
+                                border-radius:25px;}
+      .content-container{       display: grid;}
+      .super-para-container{    display: flex;
+                                flex-direction:row;}
+      .super-para{              margin: 0;
+                                margin-left: 15px;
+                                font-family: Arial, Helvetica, sans-serif;
+                                font-weight:bold;
+                                font-size: 15px;
+                                margin-right: 7px;}
+      .simple-para{             font-family: Arial, Helvetica, sans-serif;
+                                font-size: 15px;
+                                margin: 0;
+                                color: gray;}
+      .what-para{               font-family: Arial, Helvetica, sans-serif;
+                                margin-top:10px;
+                                margin-left: 15px;
+                                font-size: 15px;
+                                width: 350px;}
+      .link-container{          display:flex;
+                                width: 349px;
+                                border-radius: 15px;
+                                flex-direction: row;
+                                border: 1px gray solid;}
+      .youtube-link{            text-decoration: none;
+                                text-transform: lowercase;
+                                color: gray;
+                                
+                                margin-left: 15px;
+                                font-family: Arial, Helvetica, sans-serif;
+                                }
+      .backend-link{            font-family: Arial, Helvetica, sans-serif;
+                                margin-left: 15px;
+                                font-size: 15.5px;
+                                margin-top: 4px;}
+      .youtube-link-container{  display: grid;
+                                padding-top: 10px;}
+      .div-container{           border-top-left-radius: 12px;
+                                border-bottom-left-radius: 12px;
+                                background-color: gray;
+                                width: 130px;
+                                border-radius: px;
+                                color: gray;}
                       
 
     </style>
@@ -321,16 +372,15 @@
         <div class="second-image-container"><img class="image-profile" src="exercises-thumbnails/cat.jpg"></div>
         <div class="content-container">
           <div class="formation-container">
-            <div><p class="super-para">supersimple.dev</p><p class="simple-para">@SuperSimpleDev</p></div>
+            <div class="super-para-container"><p class="super-para">supersimple.dev</p><p class="simple-para">@SuperSimpleDev</p></div>
             <div><p class="what-para">What is backend web devlelopment? A complete overview. New video is up!</p></div>
           </div>
           <div class="link-container">
-            <div style="background-color: gray;
-            ">1</div>
+            <div class="div-container">1</div>
 
-            <div>
-              <div><a href="youtube.com">Youtube.com</a></div>
-              <div><p>Backend web development complete overview (2021)</p></div>
+            <div class="youtube-link-container">
+              <div><a class="youtube-link" href="youtube.com">Youtube.com</a></div>
+              <div><p class="backend-link">Backend web development - a complete overview (2021)</p></div>
             </div>
           </div>
         </div>
