@@ -1,20 +1,21 @@
 .Sidebar{ background-color: white;
           position: fixed;
-          padding-top: 35px;
+          padding-top: 25px;
           display: flex;
           flex-direction: column;
           left: 0;
           align-items: center;
-          max-height: 400px;
+          max-height: 450px;
           top: 50px;
           z-index: 1000;
           justify-content: space-between;
-          width: 100px;
+          width: 78px;
           bottom: 0;}
 .sidebar-buuton{background-color: white;
                 font-size: 10px;
                 cursor: pointer;
                 align-items: center;
+                line-height: 30px;
                 display: flex;
                 flex-direction: column;
                 border: none;}
