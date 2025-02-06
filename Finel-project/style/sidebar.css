@@ -2,15 +2,18 @@
           position: fixed;
           padding-top: 25px;
           display: flex;
+          
           flex-direction: column;
           left: 0;
           align-items: center;
-          max-height: 450px;
+          padding-bottom: 215px;
           top: 50px;
+          bottom: 0;
           z-index: 1000;
           justify-content: space-between;
           width: 78px;
           bottom: 0;}
+
 .sidebar-buuton{background-color: white;
                 font-size: 10px;
                 cursor: pointer;
