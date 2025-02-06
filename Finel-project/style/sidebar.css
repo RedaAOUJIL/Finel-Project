@@ -2,5 +2,6 @@
           position: fixed;
           left: 0;
           top: 50px;
+          z-index: 1000;
           width: 60px;
           bottom: 0;}
