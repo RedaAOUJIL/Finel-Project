@@ -1,7 +1,23 @@
 .Sidebar{ background-color: white;
           position: fixed;
+          padding-top: 35px;
+          display: flex;
+          flex-direction: column;
           left: 0;
+          align-items: center;
+          max-height: 400px;
           top: 50px;
           z-index: 1000;
-          width: 60px;
+          justify-content: space-between;
+          width: 100px;
           bottom: 0;}
+.sidebar-buuton{background-color: white;
+                font-size: 10px;
+                cursor: pointer;
+                align-items: center;
+                display: flex;
+                flex-direction: column;
+                border: none;}
+.sidebar-logo{  width: 23px;
+                height: 23px;}
+.sidebar-container{}
