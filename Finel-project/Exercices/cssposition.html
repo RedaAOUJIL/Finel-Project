@@ -1,33 +1,50 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>cssposition-practice</title>
-</head>
-<body style="margin: 15px;
-              margin-left: 80px;
-              margin-top: 30px;
-              height: 3000px;">
-  <div style="background-color: black;
-              color: white;
-              position: fixed;
-              top: 0;
-              left:0;
-              right: 0;
-              height: 30px;">Head</div>
-  <div style="background-color: green;
-              color: white;
-              position: fixed;
-              left: 0;
-              width: 50px;
-              bottom: 0;
-              top: 30px;">barflex</div>
+  <head>
+    <title>cssposition-practice</title>
+  </head>
 
-  <div style="background-color: lightblue;
-              width: 200px;
-              height: 200px;
-              position: static;">div 1</div>
-  <div style="background-color: lightpink;
-              width: 200px;
-              height: 200px;">div 2</div>
-</body>
+  <body style="margin: 15px;
+                margin-left: 80px;
+                margin-top: 30px;
+                height: 3000px;">
+
+    <div>
+      <div style="background-color: black;
+                  color: white;
+                  position: fixed;
+                  top: 0;
+                  z-index: 1000;
+                  right: 0;
+                  left: 0;
+                  height: 30px;">head</div>
+      <div style="background-color: green;
+                  color: white;
+                  position: fixed;
+                  top: 30px;
+                  z-index: 1000;
+                  bottom:0;
+                  left: 0;
+                  width: 60px;">sidebar</div>
+    </div>
+    
+    <div>
+      <div style="background-color: lightblue;
+                  height: 200px;
+                  width: 200px;">div 1</div>
+      <div style="background-color: lightpink;
+                  color: white;
+                  position: relative;
+                  width: 200px;
+                  height: 200px;">div 2
+                  <div style="background-color: red;
+                  color: white;
+                  position: absolute;
+                  z-index: 1;
+                  bottom:10px;
+                  right: 10px;;">absolute</div>
+      </div>
+    </div>
+    
+  </body>
 </html>
