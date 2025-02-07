@@ -1,6 +1,7 @@
 
   
-.video-menitor{           width: 100%;}
+.video-menitor{   cursor: pointer;        
+                  width: 100%;}
 .video-menitor-container{position: relative;}
 .channel-menitor{         width: 40px;
       vertical-align: top;
@@ -22,6 +23,7 @@
       margin-top: 6px;
       padding-left: 10px;}
 .video-container{         width: 100%;
+      
       height: 100%;
       
       display: inline-block;}
@@ -52,5 +54,7 @@
                           padding-left: 4px;
                           padding-right: 4px;
                           bottom: 8px;
+                          font-weight: bold;
+                          border-radius: 4px;
                           right: 5px;}
 
